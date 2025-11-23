@@ -30,7 +30,8 @@ jobs:
           plugin_achievements_display: detailed
           plugin_achievements_secrets: yes
           plugin_achievements_threshold: C
-          plugin_achievements_ignored: stargazer, forker, member, follower, explorer, chatter, automator, infographile, sponsor, deployer, gister, reviewer, manager
+          # plugin_achievements_ignored: stargazer, forker, member, follower, explorer, chatter, automator, infographile, sponsor, deployer, gister, reviewer, manager  
+          plugin_achievements_only: developer, contributor, worker, influencer, maintainer, inspirer, polyglot, deployer
           plugin_languages: yes
           plugin_languages_analysis_timeout: 15
           plugin_languages_categories: markup, programming
@@ -43,4 +44,4 @@ jobs:
           plugin_languages_threshold: 0%
           plugin_notable: no
           plugin_notable_from: organization
-          plugin_traffic: yes
+          plugin_traffic: no
