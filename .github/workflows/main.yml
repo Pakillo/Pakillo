@@ -27,7 +27,7 @@ jobs:
           user: Pakillo
           template: classic
           base: header, activity, community, repositories, metadata
-          repositories: 70
+          repositories: 80
           config_timezone: Europe/Madrid
           
           plugin_repositories: yes
@@ -55,6 +55,6 @@ jobs:
           plugin_notable_from: organization
           
           plugin_traffic: yes
-          plugin_traffic_skipped: Pakillo/Pakillo, Pakillo/ggdibbler, Pakillo/R-Asturias-DataViz-Contest, Pakillo/Pakillo.r-universe.dev, Pakillo/Sevilla-weather, Pakillo/FloraTraiter, Pakillo/manuscript-template-rstudio, Pakillo/fisim, Pakillo/R-intro, Pakillo/gbifdb, Pakillo/rcompendium, Pakillo/noisy-networks-measurements, Pakillo/TempPart, Pakillo/fact_sheets_aeet, Pakillo/BiodiversityObservationsMiner, Pakillo/slidaRtools, Pakillo/Miscellaneous-R-Code, Pakillo/letter, Pakillo/unilur, Pakillo/zoon, Pakillo/modules, Pakillo/model_selection, Pakillo/model-selection-in-practice, Pakillo/coenocliner
+          plugin_traffic_skipped: Pakillo/Pakillo, Pakillo/ggdibbler, Pakillo/R-Asturias-DataViz-Contest, Pakillo/Pakillo.r-universe.dev, Pakillo/Sevilla-weather, Pakillo/FloraTraiter, Pakillo/manuscript-template-rstudio, Pakillo/fisim, Pakillo/R-intro, Pakillo/gbifdb, Pakillo/rcompendium, Pakillo/noisy-networks-measurements, Pakillo/TempPart, Pakillo/fact_sheets_aeet, Pakillo/BiodiversityObservationsMiner, Pakillo/slidaRtools, Pakillo/Miscellaneous-R-Code, Pakillo/letter, Pakillo/unilur, Pakillo/zoon, Pakillo/modules, Pakillo/model_selection, Pakillo/model-selection-in-practice, Pakillo/coenocliner, Pakillo/frodriguezsanchez.net, Pakillo/CV, Pakillo/DEAD.ejercicio, Pakillo/mapasdesombra_talks, Pakillo/SevillaShadeMap, Pakillo/exclosures
 
           
