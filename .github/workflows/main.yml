@@ -10,7 +10,8 @@ jobs:
   github-metrics:
     runs-on: ubuntu-latest
     steps:
-      - uses: stalomeow/metrics@projects-v2
+      - gh-metrics/metrics@latest
+      # - uses: stalomeow/metrics@projects-v2
       # - uses: lowlighter/metrics@latest
         with:
           # Your GitHub token
