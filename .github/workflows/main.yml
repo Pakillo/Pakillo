@@ -44,4 +44,4 @@ jobs:
           plugin_languages_threshold: 0%
           plugin_notable: no
           plugin_notable_from: organization
-          plugin_traffic: no
+          plugin_traffic: yes
