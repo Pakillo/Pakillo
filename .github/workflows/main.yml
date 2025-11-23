@@ -27,7 +27,7 @@ jobs:
           user: Pakillo
           template: classic
           base: header, activity, community, repositories, metadata
-          repositories: 80
+          repositories: 78
           config_timezone: Europe/Madrid
           
           plugin_repositories: yes
