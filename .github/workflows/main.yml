@@ -9,6 +9,8 @@ on:
 jobs:
   github-metrics:
     runs-on: ubuntu-latest
+    environment: 
+      name: production
     permissions:
       contents: write
     steps:
@@ -21,7 +23,7 @@ jobs:
           #  - read:org  (for organization related metrics)
           #  - read:user (for user related data)
           #  - repo      (optional, if you want to include private repositories)
-          token: ${{ secrets.METRICSGA }}
+          token: ${{ secrets.METRICS_TOKEN }}
 
           # Options
           user: Pakillo
