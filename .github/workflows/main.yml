@@ -27,8 +27,10 @@ jobs:
           user: Pakillo
           template: classic
           base: header, activity, community, repositories, metadata
-          repositories: 60
+          # repositories: 80
           config_timezone: Europe/Madrid
+          plugin_repositories: yes
+          plugin_repositories_featured: Pakillo/grateful, Pakillo/LM-GLM-GLMM-intro, Pakillo/academic-website-template-Quarto, Pakillo/rmdTemplates, Pakillo/template, Pakillo/CityShadeMapper, Pakillo/FloraIberica, Pakillo/rSDM, Pakillo/rgis, Pakillo/DHARMa.helpers, Pakillo/BayesianWebs, Pakillo/network.tools, Pakillo/ANECAtools, Pakillo/journals-software-ecology, EcologyR/labeleR, EcologyR/BlueCarbon, EcologyR/mappestRisk
           plugin_achievements: no # failing
           plugin_achievements_display: detailed
           plugin_achievements_secrets: yes
